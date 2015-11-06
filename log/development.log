@@ -1,0 +1,1127 @@
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (1.0ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+
+
+Started GET "/" for ::1 at 2015-10-23 03:22:26 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#index as HTML
+Completed 500 Internal Server Error in 20ms
+
+NoMethodError (undefined method `new_piece' for #<WelcomeController:0x4065c30>):
+  app/controllers/welcome_controller.rb:15:in `index'
+
+
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (3.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/diagnostics.html.erb within rescues/layout (53.9ms)
+
+
+Started GET "/" for ::1 at 2015-10-23 03:30:17 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (13.0ms)
+Completed 500 Internal Server Error in 5077ms
+
+ActionView::Template::Error (TypeError: Object doesn't support this property or method
+  (in C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/turbolinks-2.5.3/lib/assets/javascripts/turbolinks.js.coffee)):
+    3: <head>
+    4:   <title>Rails2048</title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    6:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+    9: <body>
+  app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb___803910049_28519128'
+
+
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (5.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (6.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/template_error.html.erb within rescues/layout (54.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-10-23 03:36:42 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (14.0ms)
+Completed 200 OK in 4947ms (Views: 4931.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for ::1 at 2015-10-23 03:36:47 +0530
+
+
+Started GET "/assets/welcome-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-10-23 03:36:47 +0530
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-10-23 03:36:47 +0530
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-10-23 03:36:47 +0530
+
+
+Started GET "/assets/application-82c1f5e5f3f13a81e89b0310d80c0679.js?body=1" for ::1 at 2015-10-23 03:36:47 +0530
+
+
+Started GET "/assets/turbolinks-5cadf2bbb275e5d225b448dd6ec65060.js?body=1" for ::1 at 2015-10-23 03:36:47 +0530
+
+
+Started GET "/assets/welcome-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-10-23 03:36:47 +0530
+
+
+Started GET "/?dir=s&board=[[0,0,0,0,0,0,0,0,0,0,0],[0,0,2,0,0,0,0,0,0,0,0],[0,0,0,4,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0]]" for ::1 at 2015-10-23 03:38:49 +0530
+Processing by WelcomeController#index as HTML
+  Parameters: {"dir"=>"s", "board"=>"[[0,0,0,0,0,0,0,0,0,0,0],[0,0,2,0,0,0,0,0,0,0,0],[0,0,0,4,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0]]"}
+  Rendered welcome/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 60ms (Views: 57.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?dir=s&board=[[0,0,0,0,0,0,0,0,0,0,0],[0,0,2,0,0,0,0,0,0,0,0],[0,0,0,4,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0]]" for ::1 at 2015-10-23 03:39:11 +0530
+Processing by WelcomeController#index as HTML
+  Parameters: {"dir"=>"s", "board"=>"[[0,0,0,0,0,0,0,0,0,0,0],[0,0,2,0,0,0,0,0,0,0,0],[0,0,0,4,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0]]"}
+  Rendered welcome/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 61ms (Views: 57.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/welcome-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-10-23 03:39:11 +0530
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for ::1 at 2015-10-23 03:39:11 +0530
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-10-23 03:39:11 +0530
+
+
+Started GET "/assets/application-82c1f5e5f3f13a81e89b0310d80c0679.js?body=1" for ::1 at 2015-10-23 03:39:11 +0530
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-10-23 03:39:11 +0530
+
+
+Started GET "/assets/turbolinks-5cadf2bbb275e5d225b448dd6ec65060.js?body=1" for ::1 at 2015-10-23 03:39:11 +0530
+
+
+Started GET "/assets/welcome-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-10-23 03:39:11 +0530
+
+
+Started GET "/?dir=s&board=[[0,0,0,0,0,0,0,0,0,0,0],[0,0,2,0,0,0,0,0,0,0,0],[0,0,0,4,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0]]" for ::1 at 2015-10-23 03:39:14 +0530
+Processing by WelcomeController#index as HTML
+  Parameters: {"dir"=>"s", "board"=>"[[0,0,0,0,0,0,0,0,0,0,0],[0,0,2,0,0,0,0,0,0,0,0],[0,0,0,4,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0]]"}
+  Rendered welcome/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 59ms (Views: 55.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/turbolinks-5cadf2bbb275e5d225b448dd6ec65060.js?body=1" for ::1 at 2015-10-23 03:39:14 +0530
+
+
+Started GET "/assets/welcome-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-10-23 03:39:14 +0530
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-10-23 03:39:14 +0530
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-10-23 03:39:14 +0530
+
+
+Started GET "/assets/welcome-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-10-23 03:39:14 +0530
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for ::1 at 2015-10-23 03:39:14 +0530
+
+
+Started GET "/assets/application-82c1f5e5f3f13a81e89b0310d80c0679.js?body=1" for ::1 at 2015-10-23 03:39:14 +0530
+
+
+Started GET "/?dir=s&board=[[0,0,0,0,0,0,0,0,0,0,0],[0,0,2,0,0,0,0,0,0,0,0],[0,0,0,4,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0]]" for ::1 at 2015-10-23 03:39:17 +0530
+Processing by WelcomeController#index as HTML
+  Parameters: {"dir"=>"s", "board"=>"[[0,0,0,0,0,0,0,0,0,0,0],[0,0,2,0,0,0,0,0,0,0,0],[0,0,0,4,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0]]"}
+  Rendered welcome/index.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 60ms (Views: 56.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/welcome-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-10-23 03:39:18 +0530
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-10-23 03:39:18 +0530
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-10-23 03:39:18 +0530
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for ::1 at 2015-10-23 03:39:18 +0530
+
+
+Started GET "/assets/welcome-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-10-23 03:39:18 +0530
+
+
+Started GET "/assets/turbolinks-5cadf2bbb275e5d225b448dd6ec65060.js?body=1" for ::1 at 2015-10-23 03:39:18 +0530
+
+
+Started GET "/assets/application-82c1f5e5f3f13a81e89b0310d80c0679.js?body=1" for ::1 at 2015-10-23 03:39:18 +0530
+
+
+Started GET "/?dir=s&board=[[0,0,0,0,0,0,0,0,0,0,0],[0,0,2,0,0,0,0,0,0,0,0],[0,0,0,4,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0]]" for ::1 at 2015-10-23 03:39:19 +0530
+Processing by WelcomeController#index as HTML
+  Parameters: {"dir"=>"s", "board"=>"[[0,0,0,0,0,0,0,0,0,0,0],[0,0,2,0,0,0,0,0,0,0,0],[0,0,0,4,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0]]"}
+  Rendered welcome/index.html.erb within layouts/application (9.2ms)
+Completed 200 OK in 80ms (Views: 74.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for ::1 at 2015-10-23 03:39:19 +0530
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-10-23 03:39:19 +0530
+
+
+Started GET "/assets/turbolinks-5cadf2bbb275e5d225b448dd6ec65060.js?body=1" for ::1 at 2015-10-23 03:39:19 +0530
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-10-23 03:39:19 +0530
+
+
+Started GET "/assets/welcome-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-10-23 03:39:19 +0530
+
+
+Started GET "/assets/welcome-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-10-23 03:39:19 +0530
+
+
+Started GET "/assets/application-82c1f5e5f3f13a81e89b0310d80c0679.js?body=1" for ::1 at 2015-10-23 03:39:19 +0530
+
+
+Started GET "/?dir=s&board=[[0,0,0,0,0,0,0,0,0,0,0],[0,0,2,0,0,0,0,0,0,0,0],[0,0,0,4,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0]]" for ::1 at 2015-10-23 03:39:20 +0530
+Processing by WelcomeController#index as HTML
+  Parameters: {"dir"=>"s", "board"=>"[[0,0,0,0,0,0,0,0,0,0,0],[0,0,2,0,0,0,0,0,0,0,0],[0,0,0,4,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0]]"}
+  Rendered welcome/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 60ms (Views: 56.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-10-23 03:39:20 +0530
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-10-23 03:39:20 +0530
+
+
+Started GET "/assets/welcome-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-10-23 03:39:20 +0530
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for ::1 at 2015-10-23 03:39:20 +0530
+
+
+Started GET "/assets/welcome-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-10-23 03:39:20 +0530
+
+
+Started GET "/assets/application-82c1f5e5f3f13a81e89b0310d80c0679.js?body=1" for ::1 at 2015-10-23 03:39:20 +0530
+
+
+Started GET "/assets/turbolinks-5cadf2bbb275e5d225b448dd6ec65060.js?body=1" for ::1 at 2015-10-23 03:39:20 +0530
+
+
+Started GET "/?dir=s&board=[[0,0,0,0,0,0,0,0,0,0,0],[0,0,2,0,0,0,0,0,0,0,0],[0,0,0,4,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0]]" for ::1 at 2015-10-23 03:39:21 +0530
+Processing by WelcomeController#index as HTML
+  Parameters: {"dir"=>"s", "board"=>"[[0,0,0,0,0,0,0,0,0,0,0],[0,0,2,0,0,0,0,0,0,0,0],[0,0,0,4,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0]]"}
+  Rendered welcome/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 59ms (Views: 57.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/welcome-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-10-23 03:39:21 +0530
+
+
+Started GET "/assets/welcome-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-10-23 03:39:21 +0530
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-10-23 03:39:21 +0530
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-10-23 03:39:21 +0530
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for ::1 at 2015-10-23 03:39:21 +0530
+
+
+Started GET "/assets/turbolinks-5cadf2bbb275e5d225b448dd6ec65060.js?body=1" for ::1 at 2015-10-23 03:39:21 +0530
+
+
+Started GET "/assets/application-82c1f5e5f3f13a81e89b0310d80c0679.js?body=1" for ::1 at 2015-10-23 03:39:21 +0530
+
+
+Started GET "/?dir=s&board=[[0,0,0,0,0,0,0,0,0,0,0],[0,0,2,0,0,0,0,0,0,0,0],[0,0,0,4,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0]]" for ::1 at 2015-10-23 03:39:21 +0530
+Processing by WelcomeController#index as HTML
+  Parameters: {"dir"=>"s", "board"=>"[[0,0,0,0,0,0,0,0,0,0,0],[0,0,2,0,0,0,0,0,0,0,0],[0,0,0,4,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0]]"}
+  Rendered welcome/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 57ms (Views: 55.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/welcome-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-10-23 03:39:21 +0530
+
+
+Started GET "/assets/welcome-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-10-23 03:39:21 +0530
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for ::1 at 2015-10-23 03:39:21 +0530
+
+
+Started GET "/assets/turbolinks-5cadf2bbb275e5d225b448dd6ec65060.js?body=1" for ::1 at 2015-10-23 03:39:21 +0530
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-10-23 03:39:21 +0530
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-10-23 03:39:21 +0530
+
+
+Started GET "/assets/application-82c1f5e5f3f13a81e89b0310d80c0679.js?body=1" for ::1 at 2015-10-23 03:39:21 +0530
+
+
+Started GET "/?dir=s&board=[[0,0,0,0,0,0,0,0,0,0,0],[0,0,2,0,0,0,0,0,0,0,0],[0,0,0,4,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0]]" for ::1 at 2015-10-23 03:39:22 +0530
+Processing by WelcomeController#index as HTML
+  Parameters: {"dir"=>"s", "board"=>"[[0,0,0,0,0,0,0,0,0,0,0],[0,0,2,0,0,0,0,0,0,0,0],[0,0,0,4,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0]]"}
+  Rendered welcome/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 81ms (Views: 77.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-10-23 03:39:22 +0530
+
+
+Started GET "/assets/welcome-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-10-23 03:39:22 +0530
+
+
+Started GET "/assets/turbolinks-5cadf2bbb275e5d225b448dd6ec65060.js?body=1" for ::1 at 2015-10-23 03:39:22 +0530
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-10-23 03:39:22 +0530
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for ::1 at 2015-10-23 03:39:22 +0530
+
+
+Started GET "/assets/welcome-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-10-23 03:39:22 +0530
+
+
+Started GET "/assets/application-82c1f5e5f3f13a81e89b0310d80c0679.js?body=1" for ::1 at 2015-10-23 03:39:22 +0530
+
+
+Started GET "/?dir=s&board=[[0,0,0,0,0,0,0,0,0,0,0],[0,0,2,0,0,0,0,0,0,0,0],[0,0,0,4,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0]]" for ::1 at 2015-10-23 03:39:23 +0530
+Processing by WelcomeController#index as HTML
+  Parameters: {"dir"=>"s", "board"=>"[[0,0,0,0,0,0,0,0,0,0,0],[0,0,2,0,0,0,0,0,0,0,0],[0,0,0,4,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0]]"}
+  Rendered welcome/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 65ms (Views: 60.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/welcome-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-10-23 03:39:23 +0530
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for ::1 at 2015-10-23 03:39:23 +0530
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-10-23 03:39:23 +0530
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-10-23 03:39:23 +0530
+
+
+Started GET "/assets/welcome-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-10-23 03:39:23 +0530
+
+
+Started GET "/assets/turbolinks-5cadf2bbb275e5d225b448dd6ec65060.js?body=1" for ::1 at 2015-10-23 03:39:23 +0530
+
+
+Started GET "/assets/application-82c1f5e5f3f13a81e89b0310d80c0679.js?body=1" for ::1 at 2015-10-23 03:39:23 +0530
+
+
+Started GET "/?dir=s&board=[[0,0,0,0,0,0,0,0,0,0,0],[0,0,2,0,0,0,0,0,0,0,0],[0,0,0,4,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0]]" for ::1 at 2015-10-23 03:39:23 +0530
+Processing by WelcomeController#index as HTML
+  Parameters: {"dir"=>"s", "board"=>"[[0,0,0,0,0,0,0,0,0,0,0],[0,0,2,0,0,0,0,0,0,0,0],[0,0,0,4,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0]]"}
+  Rendered welcome/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 58ms (Views: 54.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/welcome-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-10-23 03:39:23 +0530
+
+
+Started GET "/assets/turbolinks-5cadf2bbb275e5d225b448dd6ec65060.js?body=1" for ::1 at 2015-10-23 03:39:23 +0530
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-10-23 03:39:23 +0530
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-10-23 03:39:23 +0530
+
+
+Started GET "/assets/welcome-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-10-23 03:39:23 +0530
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for ::1 at 2015-10-23 03:39:23 +0530
+
+
+Started GET "/assets/application-82c1f5e5f3f13a81e89b0310d80c0679.js?body=1" for ::1 at 2015-10-23 03:39:23 +0530
+
+
+Started GET "/?dir=s&board=[[0,0,0,0,0,0,0,0,0,0,0],[0,0,2,0,0,0,0,0,0,0,0],[0,0,0,4,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0]]" for ::1 at 2015-10-23 03:39:24 +0530
+Processing by WelcomeController#index as HTML
+  Parameters: {"dir"=>"s", "board"=>"[[0,0,0,0,0,0,0,0,0,0,0],[0,0,2,0,0,0,0,0,0,0,0],[0,0,0,4,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0]]"}
+  Rendered welcome/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 56ms (Views: 53.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/welcome-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-10-23 03:39:24 +0530
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-10-23 03:39:24 +0530
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-10-23 03:39:24 +0530
+
+
+Started GET "/assets/turbolinks-5cadf2bbb275e5d225b448dd6ec65060.js?body=1" for ::1 at 2015-10-23 03:39:24 +0530
+
+
+Started GET "/assets/welcome-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-10-23 03:39:24 +0530
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for ::1 at 2015-10-23 03:39:24 +0530
+
+
+Started GET "/assets/application-82c1f5e5f3f13a81e89b0310d80c0679.js?body=1" for ::1 at 2015-10-23 03:39:24 +0530
+
+
+Started GET "/?dir=s&board=[[0,0,0,0,0,0,0,0,0,0,0],[0,0,2,0,0,0,0,0,0,0,0],[0,0,0,4,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0]]" for ::1 at 2015-10-23 03:39:24 +0530
+Processing by WelcomeController#index as HTML
+  Parameters: {"dir"=>"s", "board"=>"[[0,0,0,0,0,0,0,0,0,0,0],[0,0,2,0,0,0,0,0,0,0,0],[0,0,0,4,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0]]"}
+  Rendered welcome/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 61ms (Views: 57.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-10-23 03:39:24 +0530
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for ::1 at 2015-10-23 03:39:24 +0530
+
+
+Started GET "/assets/welcome-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-10-23 03:39:24 +0530
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-10-23 03:39:24 +0530
+
+
+Started GET "/assets/turbolinks-5cadf2bbb275e5d225b448dd6ec65060.js?body=1" for ::1 at 2015-10-23 03:39:24 +0530
+
+
+Started GET "/assets/welcome-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-10-23 03:39:24 +0530
+
+
+Started GET "/assets/application-82c1f5e5f3f13a81e89b0310d80c0679.js?body=1" for ::1 at 2015-10-23 03:39:24 +0530
+
+
+Started GET "/?dir=s&board=[[0,0,0,0,0,0,0,0,0,0,0],[0,0,2,0,0,0,0,0,0,0,0],[0,0,0,4,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0]]" for ::1 at 2015-10-23 03:39:25 +0530
+Processing by WelcomeController#index as HTML
+  Parameters: {"dir"=>"s", "board"=>"[[0,0,0,0,0,0,0,0,0,0,0],[0,0,2,0,0,0,0,0,0,0,0],[0,0,0,4,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0]]"}
+  Rendered welcome/index.html.erb within layouts/application (14.0ms)
+Completed 200 OK in 78ms (Views: 71.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/welcome-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-10-23 03:39:25 +0530
+
+
+Started GET "/assets/welcome-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-10-23 03:39:25 +0530
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-10-23 03:39:25 +0530
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-10-23 03:39:25 +0530
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for ::1 at 2015-10-23 03:39:25 +0530
+
+
+Started GET "/assets/turbolinks-5cadf2bbb275e5d225b448dd6ec65060.js?body=1" for ::1 at 2015-10-23 03:39:25 +0530
+
+
+Started GET "/assets/application-82c1f5e5f3f13a81e89b0310d80c0679.js?body=1" for ::1 at 2015-10-23 03:39:25 +0530
+
+
+Started GET "/?dir=s&board=[[0,0,0,0,0,0,0,0,0,0,0],[0,0,2,0,0,0,0,0,0,0,0],[0,0,0,4,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0]]" for ::1 at 2015-10-23 03:39:25 +0530
+Processing by WelcomeController#index as HTML
+  Parameters: {"dir"=>"s", "board"=>"[[0,0,0,0,0,0,0,0,0,0,0],[0,0,2,0,0,0,0,0,0,0,0],[0,0,0,4,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0]]"}
+  Rendered welcome/index.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 64ms (Views: 60.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for ::1 at 2015-10-23 03:39:25 +0530
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-10-23 03:39:26 +0530
+
+
+Started GET "/assets/welcome-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-10-23 03:39:26 +0530
+
+
+Started GET "/assets/turbolinks-5cadf2bbb275e5d225b448dd6ec65060.js?body=1" for ::1 at 2015-10-23 03:39:26 +0530
+
+
+Started GET "/assets/welcome-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-10-23 03:39:26 +0530
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-10-23 03:39:26 +0530
+
+
+Started GET "/assets/application-82c1f5e5f3f13a81e89b0310d80c0679.js?body=1" for ::1 at 2015-10-23 03:39:26 +0530
+
+
+Started GET "/?dir=s&board=[[0,0,0,0,0,0,0,0,0,0,0],[0,0,2,0,0,0,0,0,0,0,0],[0,0,0,4,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0]]" for ::1 at 2015-10-23 03:39:26 +0530
+Processing by WelcomeController#index as HTML
+  Parameters: {"dir"=>"s", "board"=>"[[0,0,0,0,0,0,0,0,0,0,0],[0,0,2,0,0,0,0,0,0,0,0],[0,0,0,4,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0]]"}
+  Rendered welcome/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 62ms (Views: 56.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for ::1 at 2015-10-23 03:39:26 +0530
+
+
+Started GET "/assets/welcome-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-10-23 03:39:26 +0530
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-10-23 03:39:26 +0530
+
+
+Started GET "/assets/welcome-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-10-23 03:39:26 +0530
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-10-23 03:39:26 +0530
+
+
+Started GET "/assets/turbolinks-5cadf2bbb275e5d225b448dd6ec65060.js?body=1" for ::1 at 2015-10-23 03:39:26 +0530
+
+
+Started GET "/assets/application-82c1f5e5f3f13a81e89b0310d80c0679.js?body=1" for ::1 at 2015-10-23 03:39:26 +0530
+
+
+Started GET "/?dir=s&board=[[0,0,0,0,0,0,0,0,0,0,0],[0,0,2,0,0,0,0,0,0,0,0],[0,0,0,4,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0]]" for ::1 at 2015-10-23 03:39:26 +0530
+Processing by WelcomeController#index as HTML
+  Parameters: {"dir"=>"s", "board"=>"[[0,0,0,0,0,0,0,0,0,0,0],[0,0,2,0,0,0,0,0,0,0,0],[0,0,0,4,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0]]"}
+  Rendered welcome/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 59ms (Views: 55.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/welcome-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-10-23 03:39:26 +0530
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-10-23 03:39:26 +0530
+
+
+Started GET "/assets/welcome-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-10-23 03:39:26 +0530
+
+
+Started GET "/assets/turbolinks-5cadf2bbb275e5d225b448dd6ec65060.js?body=1" for ::1 at 2015-10-23 03:39:26 +0530
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-10-23 03:39:26 +0530
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for ::1 at 2015-10-23 03:39:26 +0530
+
+
+Started GET "/assets/application-82c1f5e5f3f13a81e89b0310d80c0679.js?body=1" for ::1 at 2015-10-23 03:39:26 +0530
+
+
+Started GET "/?dir=s&board=[[0,0,0,0,0,0,0,0,0,0,0],[0,0,2,0,0,0,0,0,0,0,0],[0,0,0,4,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0]]" for ::1 at 2015-10-23 03:39:26 +0530
+Processing by WelcomeController#index as HTML
+  Parameters: {"dir"=>"s", "board"=>"[[0,0,0,0,0,0,0,0,0,0,0],[0,0,2,0,0,0,0,0,0,0,0],[0,0,0,4,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0]]"}
+  Rendered welcome/index.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 77ms (Views: 73.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for ::1 at 2015-10-23 03:39:27 +0530
+
+
+Started GET "/assets/welcome-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-10-23 03:39:27 +0530
+
+
+Started GET "/assets/welcome-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-10-23 03:39:27 +0530
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-10-23 03:39:27 +0530
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-10-23 03:39:27 +0530
+
+
+Started GET "/assets/turbolinks-5cadf2bbb275e5d225b448dd6ec65060.js?body=1" for ::1 at 2015-10-23 03:39:27 +0530
+
+
+Started GET "/assets/application-82c1f5e5f3f13a81e89b0310d80c0679.js?body=1" for ::1 at 2015-10-23 03:39:27 +0530
+
+
+Started GET "/?dir=s&board=[[0,0,0,0,0,0,0,0,0,0,0],[0,0,2,0,0,0,0,0,0,0,0],[0,0,0,4,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0]]" for ::1 at 2015-10-23 03:39:27 +0530
+Processing by WelcomeController#index as HTML
+  Parameters: {"dir"=>"s", "board"=>"[[0,0,0,0,0,0,0,0,0,0,0],[0,0,2,0,0,0,0,0,0,0,0],[0,0,0,4,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0]]"}
+  Rendered welcome/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 63ms (Views: 57.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/welcome-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-10-23 03:39:27 +0530
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-10-23 03:39:27 +0530
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for ::1 at 2015-10-23 03:39:27 +0530
+
+
+Started GET "/assets/welcome-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-10-23 03:39:27 +0530
+
+
+Started GET "/assets/turbolinks-5cadf2bbb275e5d225b448dd6ec65060.js?body=1" for ::1 at 2015-10-23 03:39:27 +0530
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-10-23 03:39:27 +0530
+
+
+Started GET "/assets/application-82c1f5e5f3f13a81e89b0310d80c0679.js?body=1" for ::1 at 2015-10-23 03:39:27 +0530
+
+
+Started GET "/?dir=s&board=[[0,0,0,0,0,0,0,0,0,0,0],[0,0,2,0,0,0,0,0,0,0,0],[0,0,0,4,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0]]" for ::1 at 2015-10-23 03:39:27 +0530
+Processing by WelcomeController#index as HTML
+  Parameters: {"dir"=>"s", "board"=>"[[0,0,0,0,0,0,0,0,0,0,0],[0,0,2,0,0,0,0,0,0,0,0],[0,0,0,4,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0]]"}
+  Rendered welcome/index.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 63ms (Views: 60.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/welcome-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-10-23 03:39:28 +0530
+
+
+Started GET "/assets/turbolinks-5cadf2bbb275e5d225b448dd6ec65060.js?body=1" for ::1 at 2015-10-23 03:39:28 +0530
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for ::1 at 2015-10-23 03:39:28 +0530
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-10-23 03:39:28 +0530
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-10-23 03:39:28 +0530
+
+
+Started GET "/assets/welcome-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-10-23 03:39:28 +0530
+
+
+Started GET "/assets/application-82c1f5e5f3f13a81e89b0310d80c0679.js?body=1" for ::1 at 2015-10-23 03:39:28 +0530
+
+
+Started GET "/?dir=s&board=[[0,0,0,0,0,0,0,0,0,0,0],[0,0,2,0,0,0,0,0,0,0,0],[0,0,0,4,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0]]" for ::1 at 2015-10-23 03:39:31 +0530
+Processing by WelcomeController#index as HTML
+  Parameters: {"dir"=>"s", "board"=>"[[0,0,0,0,0,0,0,0,0,0,0],[0,0,2,0,0,0,0,0,0,0,0],[0,0,0,4,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0]]"}
+  Rendered welcome/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 58ms (Views: 53.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/turbolinks-5cadf2bbb275e5d225b448dd6ec65060.js?body=1" for ::1 at 2015-10-23 03:39:32 +0530
+
+
+Started GET "/assets/welcome-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-10-23 03:39:32 +0530
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-10-23 03:39:32 +0530
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for ::1 at 2015-10-23 03:39:32 +0530
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-10-23 03:39:32 +0530
+
+
+Started GET "/assets/welcome-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-10-23 03:39:32 +0530
+
+
+Started GET "/assets/application-82c1f5e5f3f13a81e89b0310d80c0679.js?body=1" for ::1 at 2015-10-23 03:39:32 +0530
+
+
+Started GET "/?dir=s&board=[[0,0,0,0,0,0,0,0,0,0,0],[0,0,2,0,0,0,0,0,0,0,0],[0,0,0,4,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0]]" for ::1 at 2015-10-23 03:39:36 +0530
+Processing by WelcomeController#index as HTML
+  Parameters: {"dir"=>"s", "board"=>"[[0,0,0,0,0,0,0,0,0,0,0],[0,0,2,0,0,0,0,0,0,0,0],[0,0,0,4,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0]]"}
+  Rendered welcome/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 64ms (Views: 59.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for ::1 at 2015-10-23 03:39:36 +0530
+
+
+Started GET "/assets/welcome-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-10-23 03:39:36 +0530
+
+
+Started GET "/assets/turbolinks-5cadf2bbb275e5d225b448dd6ec65060.js?body=1" for ::1 at 2015-10-23 03:39:36 +0530
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-10-23 03:39:36 +0530
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-10-23 03:39:36 +0530
+
+
+Started GET "/assets/application-82c1f5e5f3f13a81e89b0310d80c0679.js?body=1" for ::1 at 2015-10-23 03:39:36 +0530
+
+
+Started GET "/assets/welcome-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-10-23 03:39:36 +0530
+  [1m[36mUser Load (43.0ms)[0m  [1mSELECT "users".* FROM "users"[0m
+
+
+Started GET "/" for ::1 at 2015-11-06 13:34:04 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (1.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (95.8ms)
+Completed 200 OK in 712ms (Views: 678.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/welcome-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-11-06 13:34:07 +0530
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for ::1 at 2015-11-06 13:34:07 +0530
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-11-06 13:34:07 +0530
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-11-06 13:34:07 +0530
+
+
+Started GET "/assets/turbolinks-5cadf2bbb275e5d225b448dd6ec65060.js?body=1" for ::1 at 2015-11-06 13:34:07 +0530
+
+
+Started GET "/assets/welcome-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-11-06 13:34:07 +0530
+
+
+Started GET "/assets/application-82c1f5e5f3f13a81e89b0310d80c0679.js?body=1" for ::1 at 2015-11-06 13:34:07 +0530
+
+
+Started GET "/" for ::1 at 2015-11-06 13:38:37 +0530
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 58ms (Views: 57.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/welcome-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-11-06 13:38:37 +0530
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for ::1 at 2015-11-06 13:38:37 +0530
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-11-06 13:38:37 +0530
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-11-06 13:38:37 +0530
+
+
+Started GET "/assets/application-82c1f5e5f3f13a81e89b0310d80c0679.js?body=1" for ::1 at 2015-11-06 13:38:37 +0530
+
+
+Started GET "/assets/turbolinks-5cadf2bbb275e5d225b448dd6ec65060.js?body=1" for ::1 at 2015-11-06 13:38:37 +0530
+
+
+Started GET "/assets/welcome-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-11-06 13:38:37 +0530
+
+
+Started GET "/" for ::1 at 2015-11-06 13:38:40 +0530
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 60ms (Views: 58.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for ::1 at 2015-11-06 13:38:40 +0530
+
+
+Started GET "/assets/welcome-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-11-06 13:38:40 +0530
+
+
+Started GET "/assets/turbolinks-5cadf2bbb275e5d225b448dd6ec65060.js?body=1" for ::1 at 2015-11-06 13:38:40 +0530
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-11-06 13:38:40 +0530
+
+
+Started GET "/assets/welcome-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-11-06 13:38:40 +0530
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-11-06 13:38:40 +0530
+
+
+Started GET "/assets/application-82c1f5e5f3f13a81e89b0310d80c0679.js?body=1" for ::1 at 2015-11-06 13:38:40 +0530
+
+
+Started GET "/" for ::1 at 2015-11-06 13:38:42 +0530
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 71ms (Views: 68.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-11-06 13:38:42 +0530
+
+
+Started GET "/assets/turbolinks-5cadf2bbb275e5d225b448dd6ec65060.js?body=1" for ::1 at 2015-11-06 13:38:42 +0530
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for ::1 at 2015-11-06 13:38:42 +0530
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-11-06 13:38:42 +0530
+
+
+Started GET "/assets/welcome-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-11-06 13:38:42 +0530
+
+
+Started GET "/assets/welcome-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-11-06 13:38:42 +0530
+
+
+Started GET "/assets/application-82c1f5e5f3f13a81e89b0310d80c0679.js?body=1" for ::1 at 2015-11-06 13:38:42 +0530
+
+
+Started GET "/" for ::1 at 2015-11-06 13:38:44 +0530
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 65ms (Views: 64.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/welcome-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-11-06 13:38:45 +0530
+
+
+Started GET "/assets/welcome-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-11-06 13:38:45 +0530
+
+
+Started GET "/assets/turbolinks-5cadf2bbb275e5d225b448dd6ec65060.js?body=1" for ::1 at 2015-11-06 13:38:45 +0530
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for ::1 at 2015-11-06 13:38:45 +0530
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-11-06 13:38:45 +0530
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-11-06 13:38:45 +0530
+
+
+Started GET "/assets/application-82c1f5e5f3f13a81e89b0310d80c0679.js?body=1" for ::1 at 2015-11-06 13:38:45 +0530
+
+
+Started GET "/" for ::1 at 2015-11-06 13:38:47 +0530
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 59ms (Views: 58.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for ::1 at 2015-11-06 13:38:47 +0530
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-11-06 13:38:47 +0530
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-11-06 13:38:47 +0530
+
+
+Started GET "/assets/welcome-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-11-06 13:38:47 +0530
+
+
+Started GET "/assets/turbolinks-5cadf2bbb275e5d225b448dd6ec65060.js?body=1" for ::1 at 2015-11-06 13:38:47 +0530
+
+
+Started GET "/assets/welcome-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-11-06 13:38:47 +0530
+
+
+Started GET "/assets/application-82c1f5e5f3f13a81e89b0310d80c0679.js?body=1" for ::1 at 2015-11-06 13:38:47 +0530
+
+
+Started GET "/" for ::1 at 2015-11-06 13:38:49 +0530
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 58ms (Views: 57.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-11-06 13:38:49 +0530
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-11-06 13:38:49 +0530
+
+
+Started GET "/assets/welcome-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-11-06 13:38:49 +0530
+
+
+Started GET "/assets/turbolinks-5cadf2bbb275e5d225b448dd6ec65060.js?body=1" for ::1 at 2015-11-06 13:38:49 +0530
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for ::1 at 2015-11-06 13:38:49 +0530
+
+
+Started GET "/assets/welcome-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-11-06 13:38:49 +0530
+
+
+Started GET "/assets/application-82c1f5e5f3f13a81e89b0310d80c0679.js?body=1" for ::1 at 2015-11-06 13:38:49 +0530
+
+
+Started GET "/" for ::1 at 2015-11-06 13:38:50 +0530
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 58ms (Views: 56.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/welcome-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-11-06 13:38:50 +0530
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for ::1 at 2015-11-06 13:38:50 +0530
+
+
+Started GET "/assets/welcome-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-11-06 13:38:50 +0530
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-11-06 13:38:50 +0530
+
+
+Started GET "/assets/turbolinks-5cadf2bbb275e5d225b448dd6ec65060.js?body=1" for ::1 at 2015-11-06 13:38:50 +0530
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-11-06 13:38:50 +0530
+
+
+Started GET "/assets/application-82c1f5e5f3f13a81e89b0310d80c0679.js?body=1" for ::1 at 2015-11-06 13:38:50 +0530
+
+
+Started GET "/" for ::1 at 2015-11-06 13:38:51 +0530
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (11.0ms)
+Completed 200 OK in 67ms (Views: 65.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/welcome-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-11-06 13:38:51 +0530
+
+
+Started GET "/assets/turbolinks-5cadf2bbb275e5d225b448dd6ec65060.js?body=1" for ::1 at 2015-11-06 13:38:51 +0530
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-11-06 13:38:51 +0530
+
+
+Started GET "/assets/welcome-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-11-06 13:38:51 +0530
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-11-06 13:38:51 +0530
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for ::1 at 2015-11-06 13:38:51 +0530
+
+
+Started GET "/assets/application-82c1f5e5f3f13a81e89b0310d80c0679.js?body=1" for ::1 at 2015-11-06 13:38:51 +0530
+
+
+Started GET "/" for ::1 at 2015-11-06 13:38:51 +0530
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 63ms (Views: 62.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/welcome-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-11-06 13:38:51 +0530
+
+
+Started GET "/assets/turbolinks-5cadf2bbb275e5d225b448dd6ec65060.js?body=1" for ::1 at 2015-11-06 13:38:52 +0530
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-11-06 13:38:52 +0530
+
+
+Started GET "/assets/welcome-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-11-06 13:38:52 +0530
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-11-06 13:38:52 +0530
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for ::1 at 2015-11-06 13:38:52 +0530
+
+
+Started GET "/assets/application-82c1f5e5f3f13a81e89b0310d80c0679.js?body=1" for ::1 at 2015-11-06 13:38:52 +0530
+
+
+Started GET "/" for ::1 at 2015-11-06 13:38:52 +0530
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 59ms (Views: 58.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/welcome-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-11-06 13:38:52 +0530
+
+
+Started GET "/assets/turbolinks-5cadf2bbb275e5d225b448dd6ec65060.js?body=1" for ::1 at 2015-11-06 13:38:52 +0530
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for ::1 at 2015-11-06 13:38:52 +0530
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-11-06 13:38:52 +0530
+
+
+Started GET "/assets/welcome-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-11-06 13:38:52 +0530
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-11-06 13:38:52 +0530
+
+
+Started GET "/assets/application-82c1f5e5f3f13a81e89b0310d80c0679.js?body=1" for ::1 at 2015-11-06 13:38:52 +0530
+
+
+Started GET "/" for ::1 at 2015-11-06 13:38:53 +0530
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 58ms (Views: 56.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for ::1 at 2015-11-06 13:38:53 +0530
+
+
+Started GET "/assets/welcome-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-11-06 13:38:53 +0530
+
+
+Started GET "/assets/welcome-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-11-06 13:38:53 +0530
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-11-06 13:38:53 +0530
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-11-06 13:38:53 +0530
+
+
+Started GET "/assets/turbolinks-5cadf2bbb275e5d225b448dd6ec65060.js?body=1" for ::1 at 2015-11-06 13:38:53 +0530
+
+
+Started GET "/assets/application-82c1f5e5f3f13a81e89b0310d80c0679.js?body=1" for ::1 at 2015-11-06 13:38:53 +0530
+
+
+Started GET "/" for ::1 at 2015-11-06 13:38:56 +0530
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 74ms (Views: 73.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/turbolinks-5cadf2bbb275e5d225b448dd6ec65060.js?body=1" for ::1 at 2015-11-06 13:38:57 +0530
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-11-06 13:38:57 +0530
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-11-06 13:38:57 +0530
+
+
+Started GET "/assets/welcome-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-11-06 13:38:57 +0530
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for ::1 at 2015-11-06 13:38:57 +0530
+
+
+Started GET "/assets/welcome-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-11-06 13:38:57 +0530
+
+
+Started GET "/assets/application-82c1f5e5f3f13a81e89b0310d80c0679.js?body=1" for ::1 at 2015-11-06 13:38:57 +0530
+
+
+Started GET "/" for ::1 at 2015-11-06 13:38:57 +0530
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 63ms (Views: 62.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/welcome-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-11-06 13:38:57 +0530
+
+
+Started GET "/assets/turbolinks-5cadf2bbb275e5d225b448dd6ec65060.js?body=1" for ::1 at 2015-11-06 13:38:57 +0530
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-11-06 13:38:57 +0530
+
+
+Started GET "/assets/welcome-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-11-06 13:38:57 +0530
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-11-06 13:38:57 +0530
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for ::1 at 2015-11-06 13:38:57 +0530
+
+
+Started GET "/assets/application-82c1f5e5f3f13a81e89b0310d80c0679.js?body=1" for ::1 at 2015-11-06 13:38:57 +0530
+
+
+Started GET "/" for ::1 at 2015-11-06 13:38:58 +0530
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 65ms (Views: 63.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/turbolinks-5cadf2bbb275e5d225b448dd6ec65060.js?body=1" for ::1 at 2015-11-06 13:38:58 +0530
+
+
+Started GET "/assets/welcome-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-11-06 13:38:58 +0530
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-11-06 13:38:58 +0530
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-11-06 13:38:58 +0530
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for ::1 at 2015-11-06 13:38:58 +0530
+
+
+Started GET "/assets/welcome-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-11-06 13:38:58 +0530
+
+
+Started GET "/assets/application-82c1f5e5f3f13a81e89b0310d80c0679.js?body=1" for ::1 at 2015-11-06 13:38:58 +0530
+
+
+Started GET "/" for ::1 at 2015-11-06 13:38:59 +0530
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 56ms (Views: 54.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for ::1 at 2015-11-06 13:38:59 +0530
+
+
+Started GET "/assets/welcome-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-11-06 13:38:59 +0530
+
+
+Started GET "/assets/turbolinks-5cadf2bbb275e5d225b448dd6ec65060.js?body=1" for ::1 at 2015-11-06 13:38:59 +0530
+
+
+Started GET "/assets/welcome-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-11-06 13:38:59 +0530
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-11-06 13:38:59 +0530
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-11-06 13:38:59 +0530
+
+
+Started GET "/assets/application-82c1f5e5f3f13a81e89b0310d80c0679.js?body=1" for ::1 at 2015-11-06 13:38:59 +0530
+
+
+Started GET "/" for ::1 at 2015-11-06 13:38:59 +0530
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 64ms (Views: 61.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/turbolinks-5cadf2bbb275e5d225b448dd6ec65060.js?body=1" for ::1 at 2015-11-06 13:39:00 +0530
+
+
+Started GET "/assets/welcome-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-11-06 13:39:00 +0530
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-11-06 13:39:00 +0530
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-11-06 13:39:00 +0530
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for ::1 at 2015-11-06 13:39:00 +0530
+
+
+Started GET "/assets/welcome-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-11-06 13:39:00 +0530
+
+
+Started GET "/assets/application-82c1f5e5f3f13a81e89b0310d80c0679.js?body=1" for ::1 at 2015-11-06 13:39:00 +0530

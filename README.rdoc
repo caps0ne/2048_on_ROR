@@ -1,0 +1,2 @@
+Implementation of 2048 app on ROR.
+Feel Free to use any of the code.
